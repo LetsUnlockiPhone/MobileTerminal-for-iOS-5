@@ -11,7 +11,7 @@ iPhone 4s, iPhone 4, iPhone 3gs, iPhone 3, iPhone
 iPad 3, iPad 2, iPad
 iPod Touch (all)
 
-http://www/letsunlockiphone.com/how-to-install-mobile-terminal-iphone-ios-5/
+http://www.letsunlockiphone.com/how-to-install-mobile-terminal-iphone-ios-5/
 
 How to build MobileTerminal and package it distribution
 ========================
