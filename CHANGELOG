@@ -1,0 +1,82 @@
+= CHANGELOG =
+
+== r2?? ==
+
+  * splash screen replaced
+  * dependencies added to make process
+
+== r265 ==
+
+  * terminal arguments preferences added
+  * command line arguments re-enabled: 
+    * when launched from the shell, additional arguments get executed in the first terminal
+    * if arguments is a directory, the first shell cd's to that directory
+    * still crashes if started from shell without arguments :-(
+  * hopefully resolved the problems that made the app crash in multi-terminal mode on non-Cydia systems
+  * svn version number is displayed in the about page
+  * missing header files added
+
+== r257 ==
+
+  * gesture commands and menu buttons are read from defaults file
+
+  * bugfixes
+    * should link against the original ncurses.dylib now (version 5.4)
+    * fixed a problem with the gesture area after application resume
+    * fixed a bug in the color chooser by replacing it with a much simpler solution :-)
+
+  * application size reduced by removing unused images from the Resources
+  
+== r250 ==
+
+  * multiple terminals added (code merged from the multi branch) 
+    this feature works best if the `Default_MobileTerminal?.png` and `FSO_MobileTerminal?.png` images are copied to `/System/CoreServices/SpringBoard.app`
+
+  * landscape mode added
+
+  * pie menu replaced with a button menu:
+    * menu always within screen bounds
+    * shows/hides with a delay
+
+  * single finger swipe gestures:
+    * short swipes:
+      * up/down/left/right: cursor keys
+      * down-left: tab
+      * down-right: control key mode
+      * up-right: ctrl-c
+      * up-left: esc
+    * long swipes:
+      * left: start of line (ctrl-a)
+      * right: end of line (ctrl-e)
+
+  * double finger swipe gestures:
+    * left/right: switch to next/previous terminal
+    * down: return
+
+  * preferences added:
+    * multiple terminals:
+      * terminal font, font size
+      * terminal width
+    * gesture view frame color
+    * about page
+
+  * gesture view:
+    * bigger area
+    * frame display added
+
+  * keyboard:	
+    * toggles via 1-finger-double-tap
+    * toggles with a delay
+    * keyboard slides in and out
+
+  * sensitive status bar:
+    * left part: activates preferences
+    * right part: next/previous terminal
+
+  * scrollbar scroller display reactivated
+  * control key mode indicates via cursor color 
+  * internally converts keyboard character LF to CR (makes nano and pico work) 
+  * various display bugs fixed
+  * various code improvements
+  * Makefile improved
+  * XCode project added

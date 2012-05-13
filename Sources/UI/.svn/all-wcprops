@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/364/trunk/Sources/UI
+END
+GestureView.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/353/trunk/Sources/UI/GestureView.h
+END
+Menu.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/364/trunk/Sources/UI/Menu.m
+END
+PTYTextView.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/353/trunk/Sources/UI/PTYTextView.h
+END
+PieView.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/353/trunk/Sources/UI/PieView.m
+END
+GestureView.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/363/trunk/Sources/UI/GestureView.m
+END
+Keyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/353/trunk/Sources/UI/Keyboard.h
+END
+PTYTextView.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/355/trunk/Sources/UI/PTYTextView.m
+END
+MainViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/353/trunk/Sources/UI/MainViewController.h
+END
+Menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/363/trunk/Sources/UI/Menu.h
+END
+Keyboard.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/353/trunk/Sources/UI/Keyboard.m
+END
+MainViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/358/trunk/Sources/UI/MainViewController.m
+END
+PieView.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/353/trunk/Sources/UI/PieView.h
+END
